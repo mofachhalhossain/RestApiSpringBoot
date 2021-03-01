@@ -17,6 +17,7 @@ public class CourseServiceImpl implements CourseService{
         list = new ArrayList<>();
         list.add(new Course(133, "SpringBoot", "SpringBoot Crash Course"));
         list.add(new Course(343,"SpringMvc","SpringMvc Crash Course"));
+        list.add(new Course(523,"Python","Python crash course"));
     }
 
     @Override
